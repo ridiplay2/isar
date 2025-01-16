@@ -146,7 +146,8 @@ class IsarAnalyzer {
         properties.length) {
       err(
         'Two or more properties have the same name.',
-        constructor.enclosingElement,
+        // ### constructor.enclosingElement,
+        constructor.enclosingElement3,
       );
     }
 
